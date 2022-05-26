@@ -1,6 +1,6 @@
 {
   "name": "@virtuatable/js-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The client for the frontend of Virtuatable",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -14,6 +14,9 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "lib/**/*"
